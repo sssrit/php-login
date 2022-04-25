@@ -35,54 +35,54 @@ echo "<script>window.location.href='signin.php'</script>";
     <meta charset="utf-8">
     <title>User Registraion using PHP OOPs Concept</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assests/style.css" rel="stylesheet">
-    <script src="assests/jquery-1.11.1.min.js"></script>
-    <script src="assests/bootstrap.min.js"></script>
+    <link href="assests/style.css" rel="stylesheet">    
+    <script src="assests/css/bootstrap.min.css"></script>
 </head>
-<body>
-<form class="form-horizontal" action='' method="POST">
-  <fieldset>
-    <div id="legend">
-      <legend class="">User Signin using PHP OOPs Concept</legend>
-    </div>
+  <body>
+    <div class="container">
+        <div class="row">
+        <form class="form-horizontal" action='' method="POST">
+              <fieldset>
+                <div class="col-12">
+                  <div id="legend">
+                      <legend class="">User Signin using PHP OOPs Concept</legend>
+                    </div>
+                  </div>
+                </div>
 
-<div class="control-group">
-      <!-- Fullname -->
-      <label class="control-label"  for="username">Username</label>
-      <div class="controls">
-        <input type="text" id="username" name="username" placeholder="" class="input-xlarge" required="true">
+                <div class="control-group">
+                  <!-- Fullname -->
+                  <label class="control-label"  for="username">Username</label>
+                  <div class="controls">
+                    <input type="text" id="username" name="username" placeholder="" class="input-xlarge" required="true">
+                  </div>
+                </div>
+
+
+                <div class="control-group">
+                  <!-- Password-->
+                  <label class="control-label" for="password">Password</label>
+                  <div class="controls">
+                    <input type="password" id="password" name="password" placeholder="" class="input-xlarge" required="true">
+                  </div>
+                </div>
+            
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                    <button class="btn btn-success" type="submit" name="signin">Signin</button>
+                  </div>
+                </div>
+
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                  Not Registered yet? <a href="index.php">Register Here</a>
+                  </div>
+                </div>
+              </fieldset>
+        </form>
       </div>
-    </div>
-
-
-    <div class="control-group">
-      <!-- Password-->
-      <label class="control-label" for="password">Password</label>
-      <div class="controls">
-        <input type="password" id="password" name="password" placeholder="" class="input-xlarge" required="true">
-      </div>
-    </div>
- 
-
- 
-    <div class="control-group">
-      <!-- Button -->
-      <div class="controls">
-        <button class="btn btn-success" type="submit" name="signin">Signin</button>
-      </div>
-    </div>
-
- <div class="control-group">
-      <!-- Button -->
-      <div class="controls">
-      Not Registered yet? <a href="index.php">Register Here</a>
-      </div>
-    </div>
-
-  </fieldset>
-</form>
-<script type="text/javascript">
-
-</script>
-</body>
+    <script src="assests/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
