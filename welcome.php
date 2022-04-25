@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(strlen($_SESSION['uid'])=="")
+if(!isset($_SESSION['uid']))
 {
   header('location:logout.php');
 } else {
