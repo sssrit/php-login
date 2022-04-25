@@ -33,8 +33,7 @@ echo "<script>window.location.href='signin.php'</script>";
     <title>User Registration using PHP OOPs Concept</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assests/style.css" rel="stylesheet">
-    <script src="assests/jquery-1.11.1.min.js"></script>
-    <script src="assests/bootstrap.min.js"></script>
+    <script src="assests/css/bootstrap.min.css"></script>
  <script>
 function checkusername(va) {
   $.ajax({
@@ -50,6 +49,7 @@ function checkusername(va) {
 </script>
 </head>
 <body>
+  <div class="container">
 <form class="form-horizontal" action='' method="POST">
   <fieldset>
     <div id="legend" align="center">
@@ -107,7 +107,10 @@ function checkusername(va) {
 
   </fieldset>
 </form>
+</div>
 <script type="text/javascript">
 </script>
+<script src="assests/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
