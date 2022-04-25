@@ -43,7 +43,7 @@ echo "<script>window.location.href='signin.php'</script>";
 <form class="form-horizontal" action='' method="POST">
   <fieldset>
     <div id="legend">
-      <legend class="">User Signin using PHP OOPs Concept</legend>
+      <legend class=""> <h3>User Signin using PHP OOPs Concept</h3></legend>
     </div>
 
 <div class="control-group">
